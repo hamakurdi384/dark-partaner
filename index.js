@@ -10,7 +10,7 @@ if (message.content === 'wara') {
  if (!message.member.hasPermission("ADMINISTRATOR"))  return;
 if (message.member.voiceChannel) { 
 
-message.member.voiceChannel.join() 
+message.member.voiceChannel.join(793531559298465818) 
 
 .then(connection => { 
 
@@ -36,9 +36,9 @@ if(message.channel.type === 'dm') {
 
 if (message.content.startsWith("https://discord.gg/")) {
     
-  message.author.send(` https://discord.gg/AkYA68Z2gG`) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
+  message.author.send(`https://discord.gg/k6SYQ8sS2M`) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
     
-  client.channels.get("").send( // id channaly reklam labayny ("lera") daybny
+  client.channels.get("793531558710607947").send( // id channaly reklam labayny ("lera") daybny
 `>  By: <@${message.author.id}> ✅ 
 ${message.content}`)
 }
@@ -57,4 +57,4 @@ client.user.setGame(`Reklam Bo Mn Bnera`) //دیکرپشینی بوتەکه نم
 
 
 
-client.login("");// Your Token
+client.login("Nzk4NjEyMjM4ODM4OTIzMzA1.X_3jmw.7k9guiBAhz6Dg9RXKlZBSmF54fg");// Your Token
